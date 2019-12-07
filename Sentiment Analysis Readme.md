@@ -20,3 +20,4 @@ Model building:-
   as adam at the compile time.
   
 Model enhancing and evaluating:-
+  Used keras callbacks library of EarlyStopping to stop iterating over the epochs if the monitored quantity didn't show changes or started   decreasing. Also used Checkpoints so as to store the best model in H5 file while iterating.
